@@ -1,0 +1,13 @@
+.heroSec {
+  background-position: center;
+  background-image: url("../img/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding-top: 100px;
+  height: 700px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
