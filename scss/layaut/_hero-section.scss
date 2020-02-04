@@ -1,0 +1,31 @@
+.hero-section{
+    padding: 0px;
+    text-align: center;
+    &__bg{
+        background-image: url('../img/post-image.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 737px;
+        margin:0 auto;
+        margin-bottom: 90px;
+        padding-top: 100px;
+        
+    }
+
+    &__h1{
+        color:#ffffff;
+        font-family: $playfair-display;
+        font-weight: 900;
+        font-style:italic;
+        font-size: $x-large;
+        margin-top: 20vh;
+    }
+
+    &__flecha-abajo{
+        width: 40px;
+        margin-top: 15%;  
+    }
+}
+
+

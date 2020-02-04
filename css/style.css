@@ -9875,16 +9875,214 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/*
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+
+
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+
+
+
+
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
+*/
 .heroSec {
   background-position: center;
   background-image: url("../img/post-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
-  text-shadow: 0.125em 0.25em 0.125em #707070;
-  padding-top: 100px;
-  height: 700px;
+  padding: 100px;
+  height: 100%;
   width: 100%;
+  text-align: center;
+}
+
+.texto1 {
+  position: relative;
+  padding: 200px;
+}
+
+@media screen and (min-width: 10px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+.heroSec i {
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.foto {
+  border-radius: 50%;
+}
+
+.page-item:first-child .page-link {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.page-item:last-child .page-link {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.page-item.active .page-link {
+  background-color: black;
+  color: white;
+  border: 0px;
+}
+
+.page-link {
+  color: black;
+}
+
+.botones {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.xxlarge {
+  font-size: 70px;
+}
+
+.xlarge {
+  font-size: 30px;
+}
+
+.xlarge {
+  font-size: 30px;
+}
+
+.white {
+  color: #fff;
+}
+
+.platinum {
+  color: #e6e7e7;
+}
+
+.ligthGray {
+  color: #d1d1d1;
+  background-color: #d1d1d1;
+}
+
+.fuzzyWuzzy {
+  color: #e56353;
+}
+
+.ruddyPink {
+  color: #d76c69;
+}
+
+.spanishPink {
+  color: #ecbcba;
+}
+
+.eerieBlack {
+  background-color: #121619;
+  color: #121619;
+}
+
+.raisinBlack {
+  color: #222323;
+}
+
+.nickel {
+  color: #6c6e70;
+  background-color: #6c6e70;
+}
+
+.hero-section {
+  padding: 0px;
+  text-align: center;
+}
+.hero-section__bg {
+  background-image: url("../img/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 737px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  padding-top: 100px;
+}
+.hero-section__h1 {
+  color: #ffffff;
+  font-family: "Playfair Display", "serif";
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3rem;
+  margin-top: 20vh;
+}
+.hero-section__flecha-abajo {
+  width: 40px;
+  margin-top: 15%;
+}
+
+.profile {
+  border-top: 1px solid #6C6E70;
+  border-bottom: 1px solid #6C6E70;
+  text-align: center;
+  padding: 50px;
+  margin-top: 50px;
+}
+.profile ul {
+  list-style: none;
+  padding: 0px;
+}
+.profile ul li {
+  display: inline-block;
+  white-space: normal;
+  text-align: left;
+  padding: 10px;
+  vertical-align: middle;
+}
+.profile__name {
+  font-family: "Playfair Display", "serif";
+  font-size: 2rem;
+  font-weight: 900 italic;
+  font-style: italic;
+}
+.profile__text {
+  width: 50%;
+}
+.profile__mail {
+  font-size: 1rem;
+  font-family: "Roboto", "sans-serif";
+  color: #E56353;
+  font-weight: 300;
+}
+.profile__mail:hover {
+  color: #222323;
 }
 
 /*# sourceMappingURL=style.css.map */

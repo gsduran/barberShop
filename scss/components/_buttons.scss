@@ -1,0 +1,18 @@
+.page-item:first-child .page-link{
+    border-radius: 20px 0px 0px 20px;
+}
+.page-item:last-child .page-link{
+    border-radius: 0px 20px 20px 0px;
+}
+.page-item.active .page-link{
+    background-color: black;
+    color:white;
+    border:0px;
+}
+.page-link{
+    color:black;
+}
+.botones{
+    border-radius: 20px 20px 20px 20px;
+
+}

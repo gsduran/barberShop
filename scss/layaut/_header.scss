@@ -5,9 +5,32 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
-    text-shadow: 0.125em 0.25em 0.125em #707070;
-    padding-top: 100px;
-    height: 700px;
+    padding: 100px;
+    height: 100%;
     width: 100%;
+    text-align: center;
+    
+}
+
+.texto1{
+    position: relative;
+    padding: 200px;
+}
+
+@media screen and (min-width: 10px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+.heroSec i{
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.foto{
+    border-radius: 50%;
 
 }
+
